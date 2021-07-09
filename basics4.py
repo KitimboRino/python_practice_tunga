@@ -1,6 +1,6 @@
 # ----------------Printing Values--------
 chickens = 10
-print(chickens) #prints 10 to commmand prompt
+print(chickens)  # prints 10 to commmand prompt
 
 # --------------printing multiple values------------
 # You can form multiple values by seperating vlaues by a comma:
@@ -26,31 +26,31 @@ print('You have collected {} pine {}'.format(15, 'cones'))
 
 # ----------Formatting Dynamic text values in proper English-----------
 # For example: There ”are” 10 apple(s). But there ”is” 1 apple:
-apples = 10;
+apples = 10
 print('There are {} apples.'.format(apples))
 
-apples = 1;
+apples = 1
 print('There are {} apples.'.format(apples))
 
 # One way of solving this problem is to use Python’s inline if/else statement:
 cones = 15
-letter = 's' if cones !=1 else ''
-print('You have collected {} pine cone{}'.format(cones, letter));
+letter = 's' if cones != 1 else ''
+print('You have collected {} pine cone{}'.format(cones, letter))
 
 cones = 1
-letter = 's' if cones !=1 else ''
-print('You have collected {} pine cone{}'.format(cones, letter));
+letter = 's' if cones != 1 else ''
+print('You have collected {} pine cone{}'.format(cones, letter))
 
 # Previous example
 apples = 1
-letter = 's' if apples !=1 else ''
-verb = 'are' if apples !=1 else 'is'
-print('There {} {} apple{}'.format(verb, apples, letter));
+letter = 's' if apples != 1 else ''
+verb = 'are' if apples != 1 else 'is'
+print('There {} {} apple{}'.format(verb, apples, letter))
 
 apples = 200
-letter = 's' if apples !=1 else ''
-verb = 'are' if apples !=1 else 'is'
-print('There {} {} apple{}'.format(verb, apples, letter));
+letter = 's' if apples != 1 else ''
+verb = 'are' if apples != 1 else 'is'
+print('There {} {} apple{}'.format(verb, apples, letter))
 
 # NB: the inline id=f/else statement evaluates based on provided condition.
 # In this case we are testing the numeridc variable for not being equal to 1.
